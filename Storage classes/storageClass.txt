@@ -1,0 +1,36 @@
+
+    automatic storage class
+    default value: garbage
+    scope: Local to the function body they are difined in 
+    lifetime: till the end of the function block they are defined in
+    A variable defined without any storage class specification is by default an automatic variable
+    for example int harry and auto int harry are same
+    automatic storage class are local variable
+
+
+
+    external storage class  (extern keyword)
+    default value: zero
+    scope: global to the program they are defined in
+    lifetime: they are available throughtout the lifetime of the program
+    a global variable can be changed by any function in the program
+
+
+    static variable (static storage class)
+    scope: local to the block they are defined in 
+    default value: zero
+    lifetime: they are available throughtout the lifetime of the program
+    a static variable remains under existence for use within the function for entire program run
+    func(){
+        static int a = 5;  //6
+        a++;
+    }
+
+    register variable  (register storage class)
+    scope: local to the function they are declared in
+    default value: garbage
+    lifetime: they are available till the end of the function block, in which the variable is defined
+    register variables requests the compiler to store the variable in the CPU register instead of storing in the memory to have faster access
+
+
+

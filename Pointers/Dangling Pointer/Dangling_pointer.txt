@@ -1,0 +1,16 @@
+1.  A pointer pointed to a freed memory location or the location whose content has been deleted is called dangling pointer.
+2.  dangling pointer arise during object destruction when an object that has an incoming refernece is deleted or deallocated, without modifying the value of the pointer. So that the pointer still points to the memory location of the deallocated memory.
+
+--------------------- Cause of dangling pointer ---------------------
+
+1.  Deallocation of memory.
+2.  Returning local variables in function calls.
+3.  variables going out of scope.
+
+--------------------- Is dangling pointer a good thing to have? ---------------------
+
+1.  Dangling pointer can introduce nasty bugs in C programs.
+2.  Dangling pointer bugs frequently become security holes at time.
+3.  We can avoid issues caused by dangling pointers by initializing pointer to NULL.
+4.  After deallocating memory, pointer will be no longer dangling.
+5.  Assigning NULL value means pointer is a NULL pointer now.

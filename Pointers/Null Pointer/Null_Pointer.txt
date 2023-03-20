@@ -1,0 +1,20 @@
+1.  NULL pointer is a pointer which has a value reserved for indicating that the pointer or reference does not refer to a valid object.
+2.  A NUll pointer is guaranteed to compare unequal to any pointer that points to a valid object.
+3.  Dereferencing a null pointer is undefined behaviour in C, and a conforming implementation is allowed to assume that any pointer that is dereference is not NULL. 
+4.  NULL pointer is a specific pointer which is mentioned in C standard and it has specific purposes.
+5.  NULL pointer gives a functionality to C programmer to check whether a pointer is legitimate (valid) or not
+6.  A NULL pointer is a pointer that points to NULL (nothing).
+7.  A NULL pointer should not be dereferenced.
+8.  A check must be run the C programmer to know whether a pointer is NULL before Dereferencing it.
+9.  NULL pointer is a value where as void pointer is a type.
+
+
+----------------------------- USE OF NULL pointer -----------------------------
+
+1.  To initialize a pointer variable in cases where pointer variable has not be assigned to any valid address yet.
+2.  To check for legitimate address location before accessing any pointer variable.
+3.  By doing so, we can perform error handling while using pointers with C.
+4.  Example of such error handling can be: dereference pointer variable only if it's not NULL.
+5.  To pass a NULL pointer to a function argument when we don't want to pass any valid memory address.
+
+

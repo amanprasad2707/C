@@ -1,0 +1,17 @@
+---------------  preprocessor directives ---------------
+
+1.  Preprocessor is a kind of automated editor that modifies a copy of the original source code
+2.  The #include directive causes the preprocessor to fetch the contents of some other file to be included in the present file
+3.  In C programming there are two common formats for #includes:
+4.  This file may in turn #include some other file(s) which may in turn do the same.
+5.  Most commonly the #included files have a ".h" extension, indicating that they are header files.
+6.  The #define directive is used to "define" preprocessor "variables"
+
+
+-------------------  other C preprocessors ---------------------
+#define
+#include
+#undef    undefines a macro
+#ifdef
+#ifndef
+#pragma    to issue some special commands to compiler

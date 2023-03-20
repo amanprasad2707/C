@@ -1,0 +1,6 @@
+1.  A void pointer is a pointer that has no data type associated with it
+2.  A voic pointer can be easily typecasted to any pointer type
+3.  In simple language it is a general purpose pointer variable
+4.  It is not possible to dereference void pointers directly
+5.  pointer arithmatic is not allowed in C standards with void pointers
+6.  Hence it is not recommanded to use pointer arithmatic with void pointers

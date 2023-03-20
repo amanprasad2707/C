@@ -1,0 +1,5 @@
+1.  Uninitialize pointer is known as wild pointer.
+2.  These pointer point to some arbitrary location in memory and may cause a program to crash or behave badly.
+3.  Dereferencing wild pointers can cause nasty bugs.
+4.  It is suggested to always initialize unused pointers to NULL.
+

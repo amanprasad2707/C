@@ -1,0 +1,10 @@
+#include formats
+
+In c programming there are two common formats for #include:
+1. #include<headerFile.h>   // the angle brackets say to look in the standard system directories
+2. #include"myFiles.h"  // the quatation mark say to look in the current directory
+
+
+Disk drive full path is allowed, but discouraged since it is not portable
+1. #include<C:\ProgramFiles\Aman\Something.h>  // to specific
+2. #include<sys/file.h>    // Relative and portable path to the standard locations

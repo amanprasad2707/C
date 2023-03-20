@@ -1,0 +1,11 @@
+Command line argument is an important concept in C programming.
+Sometimes we need to pass arguments from the command line to the program a set of inputs.
+Command line arguments are used to supply parameters to the program when it is invoked.
+It is mostly used when you need to control your program from the console.
+These arguments are passed to the main() method.
+
+
+FEmpeg is a free and open-source project consisting of a vast software suite of libraries and programs for handling
+video, audio, and other multimedia files and streams.
+Ffmpeg.exe is a command line utility written in c language.
+Other examples include git, brew, apt-get etc.

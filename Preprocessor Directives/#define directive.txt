@@ -1,0 +1,21 @@
+1.  The #define directive is used to "define" preprocessor "variables".
+2.  The define preprocessor directive can be used to globally replace a word with a number.
+3.  It acts as if an editor did a global search-and-replace edit of the file.
+
+
+#define directive can be used for debugging.
+we can have print statements that we only want active when debugging.
+we can "protect" them in a "ifdef" block as follow:
+
+#define DEBUG
+#ifdef DEBUG
+[print statement]
+#endif
+
+#undef DEBUG
+
+
+---------------- MACROS USING #DEFINE ----------------
+we can also create macros using #define
+macros operate much like functions, but because they are expanded in place and are generally faster
+#define PI 3.14
