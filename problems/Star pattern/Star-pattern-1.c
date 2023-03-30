@@ -17,7 +17,7 @@ int main()
     int row = 0, col = 0;
     printf("Enter number:-\n");
     scanf("%d", &num);
-    col = num-1;
+    
     for (int i = 0; i < num; i++)
     {
         for (int j = 0; j < num; j++)
